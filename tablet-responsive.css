@@ -1,0 +1,228 @@
+/* Tablet */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    body>* {
+        width: 100%;
+    }
+
+    #nav-content {
+        display: none;
+    }
+
+    #logo>img {
+        width: 100%;
+    }
+
+    #nav-hamburger-icon {
+        width: 30%;
+        height: 75%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #hamburger-icon {
+        width: 20%;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #nav-others>#login, #nav-others>#get-started {
+        margin: 0 auto;
+    }
+
+
+    /* Introduction */
+
+    #sub-content {
+        width: 100%;
+        font-size: large;
+    }
+
+    #heading>div {
+        text-align: center;
+        font-size: 90%;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    #sub-content {
+        font-size: 100%;
+        line-height: 125%;
+    }
+
+    /* Image */
+
+    #first-image {
+        overflow: hidden;
+    }
+
+    #first-image>img {
+        width: 120%;
+    }
+
+    #about-people {
+        margin: 5% 0;
+    }
+
+    #about>p {
+        padding: 0%;
+        line-height: 1.5;
+        font-size: 110%;
+    }
+
+    #about-person {
+        font-size: 70%;
+        width: 40%;
+    }
+
+    #personal-details {
+        margin: 0 auto;
+        align-items: center;
+        width: 100%;
+        padding: 2% 0;
+    }
+
+    #profile-photo {
+        width: 25%;
+        height: 90px;
+        background-size: cover;
+    }
+
+
+    /* Cross Design */
+    #cross-design {
+        margin: 10% 0;
+        padding: 1%;
+    }
+
+    /* 2-Step Process */
+    #step-process-header {
+        width: 100%;
+    }
+
+    #step-process-content>p {
+        padding: 0% 5%;
+    }
+
+    /* Product Features */
+    #product-features-header {
+        width: 100%;
+    }
+
+    #product-features-content {
+        width: 90%;
+    }
+
+    #product-features-list-block {
+        width: 30%;
+    }
+
+    #features-list {
+        width: 80%;
+    }
+
+    #product-features-images-info-block {
+        padding-left: 0%;
+    }
+
+
+    /* What Makes Us Different? */
+    #difference-block-header {
+        background-color: aqua;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    #approach-block, #approach-content-block {
+        width: 100%;
+    }
+
+    #approach-content>* {
+        padding: 2%;
+    }
+
+    #approach-content-image-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #approach-content-image-block>img {
+        width: 90%;
+        height: 70%;
+        object-fit: contain;
+    }
+
+    #approach-content-image-block>p {
+        font-size: larger;
+    }
+
+    #approach-content-image-caption {
+        font-size: x-large;
+    }
+
+    #approach-content-image-caption>span {
+        padding: 0 10px;
+    }
+
+    #learn-more-btn-block {
+        margin-top: 5%;
+    }
+
+    #learn-more-btn {
+        font-size: medium;
+        width: 120%;
+        padding: 7% 2%;
+    }
+
+    /* Different Features */
+    #different-features-content {
+        width: 95%;
+    }
+
+
+    #diff-feature {
+        width: 31%;
+    }
+
+    #diff-feature>div {
+        font-size: 120%;
+    }
+
+    /* Our Customers & Batches */
+    #our-customers-header, #batches-block-header {
+        width: 95%;
+    }
+
+    /* Blue Block */
+    #blue-section {
+        padding: 2% 0;
+        width: 95%;
+    }
+
+    #blue-action {
+        width: 50%;
+        font-size: 175%;
+    }
+
+    #blue-section-block {
+        margin-top: 10%;
+        margin-bottom: -5.5%;
+    }
+
+    /* Footer */
+    #footer-block-content {
+        padding-top: 10%;
+        width: 90%;
+        justify-content: flex-start;
+    }
+
+    #footer-block-content>div {
+        width: 40%;
+        padding: 0 1%;
+        margin: 0 5%;
+    }
+}
